@@ -1,3 +1,4 @@
+import CallList from "@/components/CallList";
 
 const Recordings = () => {
   return (
@@ -5,6 +6,7 @@ const Recordings = () => {
       <h1 className="text-3xl font-bold">
         Recordings
       </h1>
+      <CallList type='recordings'/>
     </section>
   );
 };
